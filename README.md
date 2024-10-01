@@ -184,4 +184,4 @@ We welcome contributions in multiple languages! If you'd like to provide a trans
 
 - **Japanese**
 - **Chinese**
-- **Indian (Hindi)**
+- **[Indian (Hindi)](HINDI.md)**
