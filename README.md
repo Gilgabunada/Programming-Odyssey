@@ -61,18 +61,18 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Choose a local path where you want to save the repository, then click **Clone**.
 
 3. **Open Your Repository in GitHub Desktop**
-4. 
+
    1. Locate Your Repository:
       - Once cloned, your repository will appear in GitHub Desktop. Make sure it is selected in the left sidebar.
 
-5. **Create a New Branch**
-6. 
+4. **Create a New Branch**
+   
    1. Create a New Branch:
       - In GitHub Desktop, click on the **Current Branch** dropdown menu.
       - Select **New Branch**.
       - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
 
-7. **Add Your Story**
+5. **Add Your Story**
    
    1. Open Your Repository Folder:
       - Click on **Show in Explorer** (Windows) or **Reveal in Finder** (macOS) in GitHub Desktop to open your repository folder.
@@ -99,7 +99,7 @@ We invite you to contribute by sharing your programming journey and insights! He
         </div>
         ```
 
-9. **Commit Your Changes**
+6. **Commit Your Changes**
     
    1. Return to GitHub Desktop:
       - Go back to GitHub Desktop. You should see your new file listed under the **Changes** tab.
@@ -110,12 +110,12 @@ We invite you to contribute by sharing your programming journey and insights! He
    3. Commit Your Changes:
       - Click the **Commit to [your-branch-name]** button to save your changes locally.
 
-10. **Push Your Changes to GitHub**
+7. **Push Your Changes to GitHub**
     
    1. Push Your Changes:
       - Click on the **Push origin** button at the top of the GitHub Desktop window to upload your changes to the remote repository on GitHub.
 
-11. **Submit a Pull Request**
+8. **Submit a Pull Request**
     
    1. Open Your Repository on GitHub:
       - In your web browser, navigate to your forked repository.
