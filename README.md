@@ -1,4 +1,4 @@
-# The Programming Odyssey
+mo# The Programming Odyssey
 
 ## Quick Access Index
 
@@ -180,8 +180,10 @@ If you have any questions or feedback regarding this repository, feel free to op
 
 ## Translations
 
-We welcome contributions in multiple languages! If you'd like to provide a translation of your story, please consider using the following languages:
+To enhance accessibility for a broader audience, this repository offers translations in three languages:
 
 - **[Japanese (Nihongo)](JAPANESE.md)**
 - **[Chinese (Mandarin)](CHINESE.md)**
 - **[Indian (Hindi)](HINDI.md)**
+
+We understand that not all users may be proficient in English, and we aim to accommodate diverse language preferences. If there is a demand for additional translations in the future, we will consider adding more languages to better serve our community.
