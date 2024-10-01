@@ -11,13 +11,10 @@
 
 ## Introduction
 
-[Go Back](#quick-access-index)
-
 Welcome to **The Programming Odyssey**! This repository serves as a platform for individuals from diverse backgrounds—students, professionals, and hobbyists—to share their personal journeys in the world of programming. By documenting our experiences, we create a valuable resource for those who are just starting or looking for inspiration to continue their coding journeys. Whether you’ve faced challenges, achieved milestones, or discovered useful techniques, your story can motivate others in the programming community.
 
 ## Purpose
 
-[Go Back](#quick-access-index)
 
 The primary purpose of **The Programming Odyssey** is to foster a supportive community where programmers can share their unique stories and insights. We believe that every experience, whether positive or negative, contributes to our growth as programmers. By sharing our journeys, we can:
 
@@ -27,16 +24,12 @@ The primary purpose of **The Programming Odyssey** is to foster a supportive com
 
 ## Installation Requirements
 
-[Go Back](#quick-access-index)
-
 Before contributing, ensure you have the following installed on your local machine:
 
 - **Git:** A version control system to manage your code. You can download and install it from [git-scm.com](https://git-scm.com/).
 - **GitHub Desktop (optional):** A graphical interface for Git that simplifies the workflow. Download it from [desktop.github.com](https://desktop.github.com/).
 
 ## How to Contribute
-
-[Go Back](#quick-access-index)
 
 We invite you to contribute by sharing your programming journey and insights! Here’s a detailed guide on how to get involved:
 
@@ -60,8 +53,6 @@ We invite you to contribute by sharing your programming journey and insights! He
    - Open the repository in your favorite text editor and create a new markdown file (e.g., `your-name.md`). Use the contributor format outlined below to share your story.
 
 ### Contributor Format
-
-[Go Back](#quick-access-index)
 
 Use the following format for your contributions:
 
@@ -94,7 +85,6 @@ Use the following format for your contributions:
 
 ## Questions or Feedback
 
-[Go Back](#quick-access-index)
 
 If you have any questions or feedback regarding this repository, feel free to open an issue or contact the maintainers.
 
