@@ -29,7 +29,7 @@ The primary purpose of **The Programming Odyssey** is to foster a supportive com
 
 ## Installation Requirements
 
-Before contributing, ensure you have the following installed on your local machine:
+Before contributing, ensure you have the following installed on your local machine: (newbie friendly)
 
 - **GitHub Desktop:** A graphical interface for Git that simplifies the workflow. Download it from [desktop.github.com](https://desktop.github.com/).
 
