@@ -182,6 +182,6 @@ If you have any questions or feedback regarding this repository, feel free to op
 
 We welcome contributions in multiple languages! If you'd like to provide a translation of your story, please consider using the following languages:
 
-- **[Japanese](JAPANESE.md)**
-- **Chinese**
+- **[Japanese (Nihongo)](JAPANESE.md)**
+- **[Chinese (Mandarin)](CHINESE.md)**
 - **[Indian (Hindi)](HINDI.md)**
