@@ -14,7 +14,7 @@
 - [Contribution Recognition](#contribution-recognition)
 - [Encouragement to Share](#encouragement-to-share)
 - [Questions or Feedback](#questions-or-feedback)
-- [Translation](#translation)
+- [Translation](#translations)
   
 ## Introduction
 
