@@ -41,14 +41,15 @@ We invite you to contribute by sharing your programming journey and insights! He
      ```bash
      git clone https://github.com/Gilgabunada/Programming-Odyssey.git
      ```
-
+    - Note : Do not change the link above
 3. **Create a New Branch**
    - Navigate to the repository directory and create a new branch for your contribution:
      ```bash
      cd Programming-Odyssey
      git checkout -b your-branch-name
      ```
-
+  - Note: only edit the "your-branch-name"
+    
 4. **Add Your Story**
    - Open the repository in your favorite text editor and create a new markdown file (e.g., `your-name.md`). Use the contributor format outlined below to share your story.
 
@@ -57,14 +58,21 @@ We invite you to contribute by sharing your programming journey and insights! He
 Use the following format for your contributions:
 
 ```markdown
-### Contributor Details
 
-- **Name:** [Your Name]
-- **Status:** [e.g., Student, Professional, Hobbyist, etc.]
-- **Current Focus:** [Describe your current areas of interest or projects you're working on in programming.]
+<div>
+    <h3>Contributor Details</h3>
+    <ul>
+        <li><strong>Name:</strong> [Your Name]</li>
+        <li><strong>Status:</strong> [e.g., Student, Professional, Hobbyist, etc.]</li>
+        <li><strong>Current Focus:</strong> [Describe your current areas of interest or projects you're working on in programming.]</li>
+    </ul>
+</div>
 
-### My Programming Journey
-[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]
+<div>
+    <h3>My Programming Journey</h3>
+    <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
+</div>
+
 ```
 
 5. **Commit Your Changes**
@@ -73,13 +81,13 @@ Use the following format for your contributions:
      git add your-name.md
      git commit -m "Add [Your Name]'s programming journey"
      ```
-
+    - Note: Inside " " include your name 
 6. **Push Your Changes**
    - Push your changes to your forked repository:
      ```bash
      git push origin your-branch-name
      ```
-
+    - Note: Only Edit "your-branch-name"
 7. **Submit a Pull Request**
    - Go back to the original repository on GitHub, and you will see a prompt to create a pull request. Click on **Compare & pull request**, add any comments or context, and submit it.
 
