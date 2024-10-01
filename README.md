@@ -61,10 +61,10 @@ Use the following format for your contributions:
 - **Name:** [Your Name]
 - **Status:** [e.g., Student, Professional, Hobbyist, etc.]
 - **Current Focus:** [Describe your current areas of interest or projects you're working on in programming.]
-```
+
 ### My Programming Journey
 [Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]
-
+```
 5. **Commit Your Changes**
    - After adding your story, save the file, then commit your changes with a descriptive message:
      ```bash
