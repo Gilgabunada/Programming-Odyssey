@@ -40,44 +40,40 @@ We invite you to contribute by sharing your programming journey and insights! He
 ### Using GitHub Desktop for Contributions
 
 1. **Fork the Repository**
-   ```markdown
+
    1. Go to the Repository:
       - Open your web browser and navigate to the repository: [Programming Odyssey](https://github.com/Gilgabunada/Programming-Odyssey).
    
    2. Fork the Repository:
       - Click on the **Fork** button in the top right corner of the page. This creates a personal copy of the repository under your GitHub account.
-   ```
+  
 
 2. **Clone Your Forked Repository**
-   ```markdown
    1. Open GitHub Desktop:
       - Launch GitHub Desktop on your computer.
    
    2. Clone Your Repository:
       - In GitHub Desktop, click on **File** in the menu bar, then select **Clone repository**.
       - Switch to the **URL** tab and paste the URL of your forked repository:
-        ```
+        ```bash
         https://github.com/[YourUsername]/Programming-Odyssey.git
         ```
       - Choose a local path where you want to save the repository, then click **Clone**.
-   ```
 
 3. **Open Your Repository in GitHub Desktop**
-   ```markdown
+4. 
    1. Locate Your Repository:
       - Once cloned, your repository will appear in GitHub Desktop. Make sure it is selected in the left sidebar.
-   ```
 
-4. **Create a New Branch**
-   ```markdown
+5. **Create a New Branch**
+6. 
    1. Create a New Branch:
       - In GitHub Desktop, click on the **Current Branch** dropdown menu.
       - Select **New Branch**.
       - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
-   ```
 
-5. **Add Your Story**
-   ```markdown
+7. **Add Your Story**
+   
    1. Open Your Repository Folder:
       - Click on **Show in Explorer** (Windows) or **Reveal in Finder** (macOS) in GitHub Desktop to open your repository folder.
    
@@ -102,10 +98,9 @@ We invite you to contribute by sharing your programming journey and insights! He
             <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
         </div>
         ```
-   ```
 
-6. **Commit Your Changes**
-   ```markdown
+9. **Commit Your Changes**
+    
    1. Return to GitHub Desktop:
       - Go back to GitHub Desktop. You should see your new file listed under the **Changes** tab.
    
@@ -114,23 +109,20 @@ We invite you to contribute by sharing your programming journey and insights! He
    
    3. Commit Your Changes:
       - Click the **Commit to [your-branch-name]** button to save your changes locally.
-   ```
 
-7. **Push Your Changes to GitHub**
-   ```markdown
+10. **Push Your Changes to GitHub**
+    
    1. Push Your Changes:
       - Click on the **Push origin** button at the top of the GitHub Desktop window to upload your changes to the remote repository on GitHub.
-   ```
 
-8. **Submit a Pull Request**
-   ```markdown
+11. **Submit a Pull Request**
+    
    1. Open Your Repository on GitHub:
       - In your web browser, navigate to your forked repository.
    
    2. Create a Pull Request:
       - You should see a prompt to create a pull request for your recently pushed branch. Click on **Compare & pull request**.
       - Fill out the pull request form, providing any additional context if necessary, and click **Create pull request**.
-   ```
 
 ### Contributor Format
 
