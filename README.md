@@ -1,4 +1,4 @@
-mo# The Programming Odyssey
+# The Programming Odyssey
 
 ## Quick Access Index
 
