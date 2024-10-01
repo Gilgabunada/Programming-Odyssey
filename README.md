@@ -6,6 +6,7 @@
 - [Purpose](#purpose)
 - [How to Contribute](#how-to-contribute)
   - [Contributor Format](#contributor-format)
+- [Installation Requirements](#installation-requirements)
 - [Questions or Feedback](#questions-or-feedback)
 
 ## Introduction
@@ -23,6 +24,15 @@ The primary purpose of **The Programming Odyssey** is to foster a supportive com
 - **Inspire Others:** Provide motivation and encouragement to fellow programmers facing similar challenges.
 - **Build Community:** Create an inclusive environment where knowledge and experiences are shared freely.
 - **Reflect on Growth:** Help contributors recognize their progress and achievements through documentation.
+
+## Installation Requirements
+
+[Go Back](#quick-access-index)
+
+Before contributing, ensure you have the following installed on your local machine:
+
+- **Git:** A version control system to manage your code. You can download and install it from [git-scm.com](https://git-scm.com/).
+- **GitHub Desktop (optional):** A graphical interface for Git that simplifies the workflow. Download it from [desktop.github.com](https://desktop.github.com/).
 
 ## How to Contribute
 
@@ -65,6 +75,7 @@ Use the following format for your contributions:
 ### My Programming Journey
 [Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]
 ```
+
 5. **Commit Your Changes**
    - After adding your story, save the file, then commit your changes with a descriptive message:
      ```bash
