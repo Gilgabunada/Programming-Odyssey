@@ -14,7 +14,8 @@
 - [Contribution Recognition](#contribution-recognition)
 - [Encouragement to Share](#encouragement-to-share)
 - [Questions or Feedback](#questions-or-feedback)
-
+- [Translation](#translation)
+  
 ## Introduction
 
 Welcome to **The Programming Odyssey**! This project is a friendly platform for individuals of all skill levels—from newbies to professionals—to share their personal journeys in the world of programming. By documenting our experiences, we create a valuable resource for those just starting or looking for inspiration to continue their coding journeys. Whether you’ve faced challenges, achieved milestones, or discovered useful techniques, your story can motivate others in the programming community.
@@ -176,3 +177,11 @@ We encourage you to share your journey with friends and fellow programmers! Your
 ## Questions or Feedback
 
 If you have any questions or feedback regarding this repository, feel free to open an issue on GitHub or reach out through the contact information above.
+
+## Translations
+
+We welcome contributions in multiple languages! If you'd like to provide a translation of your story, please consider using the following languages:
+
+- **Japanese**
+- **Chinese**
+- **Indian (Hindi)**
