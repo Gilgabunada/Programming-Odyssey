@@ -6,8 +6,8 @@
 - [Purpose](#purpose)
 - [Installation Requirements](#installation-requirements)
 - [How to Contribute](#how-to-contribute)
+  - [Using GitHub Desktop for Contributions](#using-github-desktop-for-contributions)
   - [Contributor Format](#contributor-format)
-- [Git Basics](#git-basics)
 - [Questions or Feedback](#questions-or-feedback)
 
 ## Introduction
@@ -26,149 +26,106 @@ The primary purpose of **The Programming Odyssey** is to foster a supportive com
 
 Before contributing, ensure you have the following installed on your local machine:
 
-- **Git:** A version control system to manage your code. You can download and install it from [git-scm.com](https://git-scm.com/).
-- **GitHub Desktop (optional):** A graphical interface for Git that simplifies the workflow. Download it from [desktop.github.com](https://desktop.github.com/).
+- **GitHub Desktop:** A graphical interface for Git that simplifies the workflow. Download it from [desktop.github.com](https://desktop.github.com/).
 
 ## How to Contribute
 
 We invite you to contribute by sharing your programming journey and insights! Here’s a detailed guide on how to get involved:
 
+### Using GitHub Desktop for Contributions
+
 1. **Fork the Repository**
-   - Click the **Fork** button at the top right of the repository page to create your own copy of the repository.
 
-2. **Clone Your Fork**
-   - Clone your forked repository to your local machine using the following command:
-     ```bash
-     git clone https://github.com/Gilgabunada/Programming-Odyssey.git
-     ```
-   - Note: Do not change the link above.
+   1. **Go to the Repository**:
+      - Open your web browser and navigate to the repository: [Programming Odyssey](https://github.com/Gilgabunada/Programming-Odyssey).
 
-3. **Create a New Branch**
-   - Navigate to the repository directory and create a new branch for your contribution:
-     ```bash
-     cd Programming-Odyssey
-     git checkout -b your-branch-name
-     ```
-   - Note: Only edit the "your-branch-name".
+   2. **Fork the Repository**:
+      - Click on the **Fork** button in the top right corner of the page. This creates a personal copy of the repository under your GitHub account.
 
-4. **Add Your Story**
-   - Open the repository in your favorite text editor and create a new markdown file (e.g., `your-name.md`). Use the contributor format outlined below to share your story.
+2. **Clone Your Forked Repository**
 
-### Contributor Format
+   1. **Open GitHub Desktop**:
+      - Launch GitHub Desktop on your computer.
 
-Use the following format for your contributions:
+   2. **Clone Your Repository**:
+      - In GitHub Desktop, click on **File** in the menu bar, then select **Clone repository**.
+      - Switch to the **URL** tab and paste the URL of your forked repository:
+        ```
+        https://github.com/[YourUsername]/Programming-Odyssey.git
+        ```
+      - Choose a local path where you want to save the repository, then click **Clone**.
 
-```markdown
-<div>
-    <h3>Contributor Details</h3>
-    <ul>
-        <li><strong>Name:</strong> [Your Name]</li>
-        <li><strong>Status:</strong> [e.g., Student, Professional, Hobbyist, etc.]</li>
-        <li><strong>Current Focus:</strong> [Describe your current areas of interest or projects you're working on in programming.]</li>
-    </ul>
-</div>
+3. **Open Your Repository in GitHub Desktop**
 
-<div>
-    <h3>My Programming Journey</h3>
-    <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
-</div>
-```
+   1. **Locate Your Repository**:
+      - Once cloned, your repository will appear in GitHub Desktop. Make sure it is selected in the left sidebar.
 
-5. **Commit Your Changes**
-   - After adding your story, save the file, then commit your changes with a descriptive message:
-     ```bash
-     git add your-name.md
-     git commit -m "Add [Your Name]'s programming journey"
-     ```
-   - Note: Inside " " include your name.
+4. **Create a New Branch**
 
-6. **Push Your Changes**
-   - Push your changes to your forked repository:
-     ```bash
-     git push origin your-branch-name
-     ```
-   - Note: Only edit the "your-branch-name".
+   1. **Create a New Branch**:
+      - In GitHub Desktop, click on the **Current Branch** dropdown menu.
+      - Select **New Branch**.
+      - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
 
-7. **Submit a Pull Request**
-   - Go back to the original repository on GitHub, and you will see a prompt to create a pull request. Click on **Compare & pull request**, add any comments or context, and submit it.
+5. **Add Your Story**
 
-## Git Basics
+   1. **Open Your Repository Folder**:
+      - Click on **Show in Explorer** (Windows) or **Reveal in Finder** (macOS) in GitHub Desktop to open your repository folder.
 
-### 1. Setting Up Git
+   2. **Create a New Markdown File**:
+      - Inside your repository folder, create a new markdown file named `your-name.md` (replace `your-name` with your actual name).
 
-If you haven't already, make sure you have Git installed. You can verify your installation by running the following command in your terminal:
+   3. **Add the Contributor Format**:
+      - Copy and paste the following Contributor Format into your markdown file:
 
-```bash
-git --version
-```
+        ```markdown
+        <div>
+            <h3>Contributor Details</h3>
+            <ul>
+                <li><strong>Name:</strong> [Your Name]</li>
+                <li><strong>Status:</strong> [e.g., Student, Professional, Hobbyist, etc.]</li>
+                <li><strong>Current Focus:</strong> [Describe your current areas of interest or projects you're working on in programming.]</li>
+            </ul>
+        </div>
 
-### 2. Configuring Git
+        <div>
+            <h3>My Programming Journey</h3>
+            <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
+        </div>
+        ```
 
-Before you start using Git, configure your username and email. These will be associated with your commits:
+6. **Commit Your Changes**
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
+   1. **Return to GitHub Desktop**:
+      - Go back to GitHub Desktop. You should see your new file listed under the **Changes** tab.
 
-### 3. Understanding the Git Workflow
+   2. **Prepare Your Commit**:
+      - Write a summary of your changes in the **Summary** field (e.g., "Add [Your Name]'s programming journey").
 
-A typical Git workflow involves the following steps:
+   3. **Commit Your Changes**:
+      - Click the **Commit to [your-branch-name]** button to save your changes locally.
 
-- **Stage Changes:** Add files to the staging area to prepare them for commit.
-  
-  ```bash
-  git add <file-name>        # Add a specific file
-  git add .                  # Add all changes in the current directory
-  ```
+7. **Push Your Changes to GitHub**
 
-- **Commit Changes:** Save your staged changes with a descriptive message.
+   1. **Push Your Changes**:
+      - Click on the **Push origin** button at the top of the GitHub Desktop window to upload your changes to the remote repository on GitHub.
 
-  ```bash
-  git commit -m "Your descriptive commit message"
-  ```
+8. **Submit a Pull Request**
 
-- **View Changes:** Check the status of your files and see what changes are staged, unstaged, or untracked.
+   1. **Open Your Repository on GitHub**:
+      - In your web browser, go to your forked repository on GitHub.
 
-  ```bash
-  git status
-  ```
+   2. **Click on the Pull Requests Tab**:
+      - Click on the **Pull requests** tab.
 
-- **View Commit History:** See the commit history for your project.
+   3. **Create a New Pull Request**:
+      - Click on the **New pull request** button.
+      - Make sure your changes are selected, then click **Create pull request**.
 
-  ```bash
-  git log
-  ```
+   4. **Add Comments**:
+      - Write a brief description of the changes you made, then click **Create pull request** to submit it.
 
-### Using GitHub Desktop
-
-GitHub Desktop is a user-friendly interface for managing your Git repositories. Here’s how to get started:
-
-1. **Download GitHub Desktop:**
-   - Go to [desktop.github.com](https://desktop.github.com/) and download the application.
-
-2. **Install GitHub Desktop:**
-   - Follow the installation instructions for your operating system.
-
-3. **Sign In to GitHub:**
-   - Open GitHub Desktop and sign in with your GitHub account.
-
-4. **Clone a Repository:**
-   - Click on **File** > **Clone Repository** to copy a repository to your local machine. Select the repository you want to clone from your GitHub account.
-
-5. **Make Changes:**
-   - Use your preferred code editor to make changes to the files in your repository.
-
-6. **Commit Your Changes:**
-   - In GitHub Desktop, you can see the changes you've made. Add a summary and description for your commit, then click on the **Commit to main** button.
-
-7. **Push Your Changes:**
-   - Once you’ve committed your changes, click the **Push origin** button in the top right corner to upload your changes to GitHub.
-
-8. **Submit a Pull Request:**
-   - Go back to the original repository on GitHub, and you will see a prompt to create a pull request. Click on **Compare & pull request**, add any comments or context, and submit it.
-
-## Questions or Feedback
+### Questions or Feedback
 
 If you have any questions or feedback regarding this repository, feel free to open an issue or contact the maintainers.
 
