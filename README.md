@@ -152,7 +152,7 @@ Use the following template to document your programming journey:
 - **Q: Can I contribute if I am just starting?**
   A: Absolutely! We encourage contributions from beginners as your journey is valuable.
 
-- **Q: Im just starting to learn html can i contribute?
+- **Q: Im just starting to learn html can i contribute?**
   A: Yes Absolutely! You can follow the steps and just fill out the blanks
 
 ## License
