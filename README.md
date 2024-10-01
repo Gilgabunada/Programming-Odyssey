@@ -83,7 +83,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    3. Add the Contributor Format:
       - Copy and paste the following Contributor Format into your markdown file:
    
-        ```markdown
+        ```bash
         <div>
             <h3>Contributor Details</h3>
             <ul>
@@ -128,7 +128,7 @@ We invite you to contribute by sharing your programming journey and insights! He
 
 Use the following template to document your programming journey:
 
-```markdown
+```bash
 <div>
     <h3>Contributor Details</h3>
     <ul>
