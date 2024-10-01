@@ -87,7 +87,7 @@ Use the following format for your contributions:
      ```bash
      git push origin your-branch-name
      ```
-    - Note: Only Edit "your-branch-name"
+    - Note: Only edit the"your-branch-name"
 7. **Submit a Pull Request**
    - Go back to the original repository on GitHub, and you will see a prompt to create a pull request. Click on **Compare & pull request**, add any comments or context, and submit it.
 
