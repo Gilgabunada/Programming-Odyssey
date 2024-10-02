@@ -76,6 +76,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - In GitHub Desktop, click on the **Current Branch** dropdown menu.
       - Select **New Branch**.
       - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
+     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Branch.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 5. **Add Your Story**
    
