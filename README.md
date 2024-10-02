@@ -47,7 +47,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    
    2. Fork the Repository:
       - Click on the **Fork** button in the top right corner of the page. This creates a personal copy of the repository under your GitHub account.
-  
+      ![My Image](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Fork.png)
 
 2. **Clone Your Forked Repository**
    1. Open GitHub Desktop:
