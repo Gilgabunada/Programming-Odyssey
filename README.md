@@ -56,6 +56,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    
    2. Clone Your Repository:
       - In GitHub Desktop, click on **File** in the menu bar, then select **Clone repository**.
+         ![My Image](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Clone.png)
       - Switch to the **URL** tab and paste the URL of your forked repository:
         ```bash
         https://github.com/[YourUsername]/Programming-Odyssey.git
