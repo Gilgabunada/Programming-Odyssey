@@ -63,7 +63,8 @@ We invite you to contribute by sharing your programming journey and insights! He
         https://github.com/[YourUsername]/Programming-Odyssey.git
         ```
       - Choose a local path where you want to save the repository, then click **Clone**.
-
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/path.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+  
 3. **Open Your Repository in GitHub Desktop**
 
    1. Locate Your Repository:
