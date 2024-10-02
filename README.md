@@ -90,19 +90,14 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Copy and paste the following Contributor Format into your markdown file:
    
         ```bash
-        <div>
-            <h3>Contributor Details</h3>
-            <ul>
-                <li><strong>Name:</strong> [Your Name]</li>
-                <li><strong>Status:</strong> [e.g., Student, Professional, Hobbyist, etc.]</li>
-                <li><strong>Current Focus:</strong> [Describe your current areas of interest or projects you're working on in programming.]</li>
-            </ul>
-        </div>
-   
-        <div>
-            <h3>My Programming Journey</h3>
-            <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
-        </div>
+        <div class="entry">
+                <div class="details">
+                    <p><strong>John Doe</strong> | Student | Web Development</p>
+                </div>
+                <div class="story">
+                    <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. The satisfaction of seeing something I built come to life is indescribable. I still face challenges, but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, and the journey has been incredibly rewarding.</p>
+                </div>
+            </div>
         ```
 
 6. **Commit Your Changes**
@@ -135,19 +130,15 @@ We invite you to contribute by sharing your programming journey and insights! He
 Use the following template to document your programming journey:
 
 ```bash
-<div>
-    <h3>Contributor Details</h3>
-    <ul>
-        <li><strong>Name:</strong> [Your Name]</li>
-        <li><strong>Status:</strong> [e.g., Student, Professional, Hobbyist, etc.]</li>
-        <li><strong>Current Focus:</strong> [Describe your current areas of interest or projects you're working on in programming.]</li>
-    </ul>
-</div>
 
-<div>
-    <h3>My Programming Journey</h3>
-    <p>[Share your story about how you started programming. Discuss the challenges you faced, how you overcame them, and whether you find it easier or harder now. Include any lessons learned that might motivate others.]</p>
-</div>
+<div class="entry">
+                <div class="details">
+                    <p><strong>John Doe</strong> | Student | Web Development</p>
+                </div>
+                <div class="story">
+                    <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. The satisfaction of seeing something I built come to life is indescribable. I still face challenges, but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, and the journey has been incredibly rewarding.</p>
+                </div>
+            </div>
 ```
 
 ## FAQs
