@@ -217,8 +217,8 @@
 
 व्यापक दर्शकों के लिए पहुंच में सुधार करने के लिए, इस रिपॉजिटरी में तीन भाषाओं में अनुवाद प्रदान किए गए हैं:
 
-- **[जापानी (निहोंगो)](JAPANESE.md)**
-- **[चीनी (मंदारिन)](CHINESE.md)**
-- **[भारतीय (हिंदी)](HINDI.md)**
+- **[जापानी (निहोंगो)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/JAPANESE.md)**
+- **[चीनी (मंदारिन)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/CHINESE.md)**
+- **[भारतीय (हिंदी)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/HINDI.md)**
 
 हम समझते हैं कि सभी उपयोगकर्ता अंग्रेजी में कुशल नहीं हो सकते हैं, और हम विविध भाषा वरीयताओं को समायोजित करने का प्रयास करते हैं। यदि भविष्य में अतिरिक्त अनुवादों की मांग होती है, तो हम अपने समुदाय को बेहतर सेवा देने के लिए अधिक भाषाएँ जोड़ने पर विचार करेंगे।

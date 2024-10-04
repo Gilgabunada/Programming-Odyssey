@@ -218,8 +218,8 @@
 
 より広いオーディエンスのためのアクセシビリティを向上させるために、このリポジトリでは3つの言語で翻訳を提供しています：
 
-- **[日本語 (Nihongo)](JAPANESE.md)**
-- **[中国語 (普通话)](CHINESE.md)**
-- **[ヒンディー語 (Hindi)](HINDI.md)**
+- **[日本語 (Nihongo)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/JAPANESE.md)**
+- **[中国語 (普通话)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/CHINESE.md)**
+- **[ヒンディー語 (Hindi)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/HINDI.md)**
 
 すべてのユーザーが英語に堪能であるわけではないことを理解しており、さまざまな言語の好みに対応することを目指しています。将来的に追加の翻訳の需要がある場合は、コミュニティのニーズに応じてさらに多くの言語を追加することを検討します。
