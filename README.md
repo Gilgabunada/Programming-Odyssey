@@ -84,7 +84,7 @@ We invite you to contribute by sharing your programming journey and insights! He
 5. **Add Your Story**
    
    1. Open the index.html file:
-      - Follow your path mine is
+      - Follow your path. mine is:
         ```bash   
         C:\Users\Gabunada\Desktop\Programming\-Odyssey
           ```
@@ -104,8 +104,9 @@ We invite you to contribute by sharing your programming journey and insights! He
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/DONT.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
    3. Add the Contributor Format:
-      - Copy and paste the following Contributor Format into your markdown file:
-   
+      - Look for this part of the code located below:
+       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/New.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      - Copy the Format below:
         ```bash
         <!------ Start Entry --------->
             <div class="entry">
@@ -124,6 +125,10 @@ We invite you to contribute by sharing your programming journey and insights! He
             </div>
             <!------ End Entry ----------->
         ```
+      - After Pasting the format on the designated location
+      - Edit the Format with your **Details** , **Story**.
+      - Input your **Name**, **Status (Student, Professional, Hobbiest)** , and your **Story**
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 6. **Commit Your Changes**
     
