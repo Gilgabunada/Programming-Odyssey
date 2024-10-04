@@ -197,11 +197,11 @@ main {
 
 .contact-info i {
     margin-right: 8px;
-    transition: transform 0.3s;
+    transition: transform 0.1s;
 }
 
 .contact-info a:hover i {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
