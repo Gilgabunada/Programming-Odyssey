@@ -129,7 +129,7 @@ We invite you to contribute by sharing your programming journey and insights! He
               <!------ End Entry ----------->
         ```
       - After Pasting the format on the designated location
-      - Edit the Format with your **Details** , **Story**.
+      - Edit the Format with your **Details** and **Story**.
       - Please provide your **Name**, current **Status** (student, professional, hobbyist), and a brief description of your **Current focus** (web development, AI-focused software development, or AI and software engineering) and your **Programming Story**
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
