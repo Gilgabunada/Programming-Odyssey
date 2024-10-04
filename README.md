@@ -77,12 +77,13 @@ We invite you to contribute by sharing your programming journey and insights! He
       - In GitHub Desktop, click on the **Current Branch** dropdown menu.
       - Select **New Branch**.
       - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
-     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Branch.png.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Branch.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 5. **Add Your Story**
    
    1. Open the index.html file:
-      - Follow your path mine is ```bash   
+      - Follow your path mine is
+        ```bash   
       C:\Users\Gabunada\Desktop\Programming\-Odyssey
           ```
       - Right click your index.html file then click open with then open your Code Editor (Sublime, VScode, Atom ..etc)
@@ -91,11 +92,11 @@ We invite you to contribute by sharing your programming journey and insights! He
      
    2. DO NOT TOUCH THIS PART OF THE CODE:
       ## NOTE: IF YOU CHANGE THIS PART OF THE CODE YOUR ENTRY WON'T BE ACCEPTED
-      - ### TOP
+        - ### TOP
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Above.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
-      - ### BUTTOM
+        - ### BUTTOM
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Below.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
-     - ### OTHERS ENTRY
+       - ### OTHERS ENTRY
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/DONT.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
    3. Add the Contributor Format:
