@@ -129,57 +129,59 @@ We invite you to contribute by sharing your programming journey and insights! He
         ```
       - After Pasting the format on the designated location
       - Edit the Format with your **Details** , **Story**.
-      - Input your **Name**, **Status (Student, Professional, Hobbiest)** , and your **Story**
+      - Please provide your **Name**, current **Status** (student, professional, hobbyist), and a brief description of your **Current focus** (web development, AI-focused software development, or AI and software engineering) and your **Programming Story**
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 6. **Commit Your Changes**
     
    1. Return to GitHub Desktop:
       - Go back to GitHub Desktop. You should see your new file listed under the **Changes** tab.
+        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Githubdesktop.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      - You can also see the changes you have made.
    
    2. Prepare Your Commit:
       - Write a summary of your changes in the **Summary** field (e.g., "Add [Your Name]'s programming journey").
-   
-   3. Commit Your Changes:
-      - Click the **Commit to [your-branch-name]** button to save your changes locally.
-
+        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Comitting.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+    - Click the **Commit to [your-branch-name]** button to save your changes locally. 
+            
 7. **Push Your Changes to GitHub**
     
    1. Push Your Changes:
       - Click on the **Push origin** button at the top of the GitHub Desktop window to upload your changes to the remote repository on GitHub.
-
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/pushing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      
 8. **Submit a Pull Request**
     
-   1. Open Your Repository on GitHub:
+   1. Open Your Repository on GitHub Website:
       - In your web browser, navigate to your forked repository.
-   
    2. Create a Pull Request:
       - You should see a prompt to create a pull request for your recently pushed branch. Click on **Compare & pull request**.
+        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/pulling.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - Fill out the pull request form, providing any additional context if necessary, and click **Create pull request**.
+        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/pullrequest.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
-### Contributor Format
+9. **Celebrate Your Achievement**
 
-Use the following template to document your programming journey:
+   After submitting your pull request, take a moment to appreciate the milestone you’ve just reached. Your changes are now officially under review by the repository’s maintainer. Once they approve, your work will be merged into the project.
+   This means your first contribution will be published for the world to see—an achievement that marks your entry into collaborative software development.
+   
+   This is not just about submitting code but becoming part of an open-source community or team project. Each contribution helps improve the project, and your efforts have now made an impact.
+   So go ahead and celebrate—you’ve taken an important step in your programming journey!
 
-      ```bash
+10. **Star the Repository and Open Your First Issue**
 
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>John Doe</strong> | Student | Web Development</p>
-                </div>
-                <div class="story">
-                    <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
-                        It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
-                        My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
-                        The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
-                        but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
-                        and the journey has been incredibly rewarding.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-      ```
+   Once your pull request is submitted, consider taking a couple of additional steps to further engage with the project:
+
+   1. **Star the Repository**: 
+      - Starring a repository on GitHub is a way to show appreciation for the work done by the maintainers and contributors. By starring the project, you also make it easier to revisit later, as starred repositories are listed on your GitHub profile.
+      - It’s a simple yet significant way to support the open-source community, and it showcases your interest in the project.
+
+   2. **Open an Issue**: 
+      - If you notice any bugs, areas for improvement, or have suggestions for new features, don’t hesitate to open an issue on the repository. Creating an issue is another valuable contribution, as it helps the maintainers identify and prioritize tasks that need attention.
+      - To do this, navigate to the **Issues** tab in the repository, click **New issue**, and provide a detailed description of your feedback or suggestions.
+      - This marks another important achievement—your first issue submission. Contributing ideas and identifying problems is just as critical to the success of a project as writing code. You are helping drive future development and making a lasting impact.
+
+   By starring the repository and opening your first issue, you are solidifying your involvement with the project and contributing to its ongoing improvement. Both actions demonstrate your commitment to collaboration and growth as a developer, adding yet another milestone to your journey.
 
 ## FAQs
 
