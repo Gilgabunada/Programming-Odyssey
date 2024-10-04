@@ -209,8 +209,8 @@
 
 为了增强更广泛受众的可访问性，本仓库提供三种语言的翻译：
 
-- **[日语 (Nihongo)](JAPANESE.md)**
-- **[中文 (普通话)](CHINESE.md)**
-- **[印度语 (Hindi)](HINDI.md)**
+- **[日语 (Nihongo)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/JAPANESE.md)**
+- **[中文 (普通话)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/CHINESE.md)**
+- **[印度语 (Hindi)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/HINDI.md)**
 
 我们理解并非所有用户都精通英语，我们旨在满足多样的语言偏好。如果将来对其他语言的翻译有需求，我们将考虑添加更多语言，以更好地服务我们的社区。
