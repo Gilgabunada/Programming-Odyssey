@@ -47,7 +47,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    
    2. Fork the Repository:
       - Click on the **Fork** button in the top right corner of the page. This creates a personal copy of the repository under your GitHub account.
-      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Untitled.png?raw=true" alt="My Image" style="max-width: 100%; height: auto;"/>
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Untitled.png?raw=true" alt="My Image" style="max-width: 100%; height: auto;"/>
 
      
 2. **Clone Your Forked Repository**
@@ -56,14 +56,14 @@ We invite you to contribute by sharing your programming journey and insights! He
    
    2. Clone Your Repository:
       - In GitHub Desktop, click on **File** in the menu bar, then select **Clone repository**.
-       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Clone.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Clone.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - Switch to the **URL** tab and paste the URL of your forked repository:
       
         ```bash
         https://github.com/[YourUsername]/Programming-Odyssey.git
         ```
       - Choose a local path where you want to save the repository, then click **Clone**.
-      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/path.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/path.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - Dont Forget your path it will be useful later
   
 3. **Open Your Repository in GitHub Desktop**
@@ -77,18 +77,27 @@ We invite you to contribute by sharing your programming journey and insights! He
       - In GitHub Desktop, click on the **Current Branch** dropdown menu.
       - Select **New Branch**.
       - Name your branch (e.g., `add-your-name`), then click **Create Branch**.
-     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step/Branch.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Branch.png.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 5. **Add Your Story**
    
    1. Open the index.html file:
       - Follow your path mine is ```bash   
-      C:\Users\
-      ```
-   
-   2. Create a New Markdown File:
-      - Inside your repository folder, create a new markdown file named `your-name.md` (replace `your-name` with your actual name).
-   
+      C:\Users\Gabunada\Desktop\Programming\-Odyssey
+          ```
+      - Right click your index.html file then click open with then open your Code Editor (Sublime, VScode, Atom ..etc)
+        
+     <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/OpenIndex.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+     
+   2. DO NOT TOUCH THIS PART OF THE CODE:
+      ## NOTE: IF YOU CHANGE THIS PART OF THE CODE YOUR ENTRY WON'T BE ACCEPTED
+      - ### TOP
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Above.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      - ### BUTTOM
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Below.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+     - ### OTHERS ENTRY
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/DONT.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      
    3. Add the Contributor Format:
       - Copy and paste the following Contributor Format into your markdown file:
    
