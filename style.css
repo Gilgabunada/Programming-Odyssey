@@ -9,24 +9,78 @@ body {
     flex-direction: column;
     align-items: center; 
     min-height: 100vh; 
+    position: relative;
+}
+
+
+
+.logo {
+    width: 50px;            /* Adjust size of the logo as needed */
+    height: auto;           /* Maintain aspect ratio */
+    margin-right: 10px;     /* Space between logo and text */
 }
 
 .logo-container {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
+    position: fixed; /* Keep the logo in a fixed position */
+    top: 40px; /* Adjust this value to position vertically */
+    left: 40px; /* Position on the left */
+    z-index: 1000; /* Ensure it's on top of other content */
 }
 
-.logo {
-    width: 150px;
+.button {
+    position: fixed; /* Keep the button in a fixed position */
+    top: 40px; /* Adjust for vertical positioning */
+    right: 40px; /* Position on the right */
+    background-color: #1e1e1e; /* Dark background to fit the theme */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure it’s on top of other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
+
+.button:hover {
+    background-color: #333333; /* Darker shade on hover */
+}
+
+
+
 
 main {
     padding: 70px 20px;
     width: 100%; 
     max-width: 1200px; 
+    flex: 1; 
 }
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f5f5f5;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.search-container input:focus {
+    border-color: #846f6f; /* Change to a different color on focus */
+    outline: none;
+}
+
 
 .main-container {
     display: flex; 
@@ -74,7 +128,7 @@ main {
 
 .tools-container {
     position: fixed; 
-    top: 150px;
+    top: 200px;
     left: 20px; 
     width: 300px;
     max-height: calc(100vh - 150px); 
@@ -107,8 +161,8 @@ text-decoration: underline;
 
 .resources-container {
     position: fixed; 
-    top: 150px;
-    right: 20px;
+    top: 200px;
+    right: 30px;
     width: 300px;
     max-height: calc(100vh - 150px); 
     background: rgba(0, 0, 0, 0.8);

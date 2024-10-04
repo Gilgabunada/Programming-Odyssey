@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Programming Odyssey</title>
+    <link rel="icon" href="Logo/TAB.png" type="image/png"> <!-- Change the path accordingly -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
-
     <div class="logo-container">
-        <img src="Logo/LOGO.jpg" alt="Logo" class="logo">
-    </div>
+        <img src="Logo/TAB.png" alt="Logo" class="logo"></div>
 
+    <a href="https://github.com/Gilgabunada/Programming-Odyssey" class="button">Contribute</a>
+
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search by status or focus ..." /></div>
+    
+    <div id="empty-message" style="display: none;"><p>No results found.</p></div>
     <!-- Programming Resource Section (Left Side) -->
-    <div class="resources-container">
-        <h2>Programming Resources</h2>
+    <div class="resources-container"><h2>Resources</h2>
         <ul>
             <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
             <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
@@ -31,10 +34,8 @@
             <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
         </ul>
     </div>
-    
     <!-- Programming Tools Section (Left Side) -->
-    <div class="tools-container">
-        <h2>Programming Tools</h2>
+    <div class="tools-container"><h2>Tools</h2>
         <ul>
             <li><a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a></li>
             <li><a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a></li>
@@ -50,8 +51,6 @@
         </ul>
     </div>
     
-    
-
     <!--*************************** DO NOT TOUCH ABOVE ***************************
         *************************** DO NOT TOUCH ABOVE ***************************
         *************************** DO NOT TOUCH ABOVE *************************** -->
@@ -62,101 +61,151 @@
             <!------ Start Entry --------->
             <div class="entry">
                 <div class="details">
-                    <p><strong>John Doe</strong> | Student | Web Development</p>
+                    <p><strong>John Doe</strong> | <span class="status">Student</span> | <span class="focus">Web Development</span></p>
                 </div>
                 <div class="story">
                     <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
-                        It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
-                        My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
-                        The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
-                        but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
-                        and the journey has been incredibly rewarding.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-
-
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>Jane Smith</strong> | Professional | AI and Machine Learning</p>
-                </div>
-                <div class="story">
-                    <p>My journey into AI and machine learning started during my final year of college. I was fascinated by how machines could learn 
-                        from data and make predictions. I dived deep into neural networks, and my first project was training a model to classify images. 
-                        There were moments of frustration, especially when I couldn’t get my model to perform well, but I kept pushing through. Eventually, 
-                        I started to understand the nuances of fine-tuning models. Now, I work professionally in the field, helping companies implement machine 
-                        learning solutions to improve their business processes. Every project is a new challenge, and that’s what keeps me excited.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>Emily Johnson</strong> | Hobbyist | Mobile Apps</p>
-                </div>
-                <div class="story">
-                    <p>I learned programming through online tutorials, starting with small projects like calculators and to-do lists. Eventually, I found myself drawn 
-                        to mobile app development because of the creativity it allowed. One of my favorite projects was building a workout tracker for personal use. 
-                        It took me weeks to figure out how to implement all the features I wanted, but seeing the final product on my phone made it all worth it. 
-                        Now, I love experimenting with new frameworks and constantly updating my app with new ideas. The more I create, the more I want to learn, 
-                        and I look forward to taking on even more ambitious projects in the future.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-            
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>Michael Brown</strong> | Student | Game Development</p>
-                </div>
-                <div class="story">
-                    <p>As a gamer, I was always curious about how games were made, which led me to start learning game development. At first, it was overwhelming to 
-                        learn programming and 3D modeling at the same time. I started with small projects in Unity, like building basic platformers and learning C#. 
-                        Over time, I became more comfortable with the game development process. My most recent project is a multiplayer game that I’ve been working on with some friends. 
-                        It’s been a challenging but rewarding experience, and I’ve learned a lot about teamwork, debugging, and optimization. I’m excited to keep improving 
-                        and maybe even release a game on Steam one day.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>Sarah Davis</strong> | Professional | Cybersecurity</p>
-                </div>
-                <div class="story">
-                    <p>Cybersecurity wasn’t my initial career choice, but once I discovered it, I was hooked. I’ve always enjoyed puzzles, 
-                        and cybersecurity is like solving a puzzle every day. My job involves finding vulnerabilities in systems before hackers can exploit them. 
-                        It’s a high-pressure field, but the adrenaline rush keeps me going. One of my most memorable experiences was preventing a data breach for a large company, 
-                        which solidified my passion for this field. I’m constantly learning and staying up-to-date with the latest security threats, 
-                        and I enjoy the challenge of outsmarting potential attackers. There’s always something new to discover in cybersecurity, and that’s what I love about it.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
-
-            <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>Tom Wilson</strong> | Hobbyist | Data Science</p>
-                </div>
-                <div class="story">
-                    <p>What started as a simple curiosity about data has turned into a full-fledged hobby in data science. I love how data can be used to tell a story or predict outcomes. 
-                        My first project was analyzing public datasets, and from there, I started building machine learning models. One of my favorite projects was predicting stock prices 
-                        based on historical data, which taught me a lot about statistical analysis and machine learning algorithms. Although I do this for fun, 
-                        I can see myself taking this further and maybe even working in the field professionally. Data science is constantly evolving, and I love being part of that evolution.
-                    </p>
+                        It wasn’t easy at first, as I struggled with complex concepts and often felt overwhelmed. However, over time, I learned to embrace the process of problem-solving, 
+                        finding joy in debugging and creating my own projects. A pivotal moment for me was mastering recursion, which transformed my perspective on coding. 
+                        As I took on more challenging projects, I realized that programming is not just about writing code; it’s about creativity and continuous learning. 
+                        Today, I am excited to tackle new challenges and further expand my skills in this ever-evolving field.</p>
                 </div>
             </div>
             <!------ End Entry --------->
 
-            
+            <!------ Start Entry --------->
+            <div class="entry">
+                <div class="details">
+                    <p><strong>Jane Smith</strong> | <span class="status">Professional</span> | <span class="focus">AI and Machine Learning</span></p>
+                </div>
+                <div class="story">
+                    <p>My journey into AI and machine learning started during my final year of college. I was fascinated by how machines could learn from data and make predictions, 
+                        leading me to explore this exciting field in depth. I dove deep into neural networks, experimenting with various architectures and algorithms. 
+                        The thrill of seeing a model improve its accuracy over time was exhilarating, and I eagerly participated in online competitions to test my skills against others. 
+                        As I learned more about supervised and unsupervised learning, I realized the potential of AI to revolutionize industries and impact lives. This passion fueled my desire 
+                        to contribute to innovative projects and further my understanding of this transformative technology.</p>
+                </div>
+            </div>
+            <!------ End Entry --------->
+
+            <!------ Start Entry --------->
+            <div class="entry">
+                <div class="details">
+                    <p><strong>Emily Johnson</strong> | <span class="status">Hobbyist</span> | <span class="focus">Mobile Apps</span></p>
+                </div>
+                <div class="story">
+                    <p>I learned programming through online tutorials, starting with small projects like calculators and to-do lists. Each project taught me the basics of coding and problem-solving, 
+                        but it was the satisfaction of seeing my ideas come to life that truly sparked my passion. I found myself drawn to mobile app development because of the creativity it allowed. 
+                        I loved the idea of designing user-friendly interfaces and developing features that could enhance people's daily lives. As I progressed, I began to explore more complex applications, 
+                        experimenting with different frameworks and languages. The challenges I faced only fueled my determination, and soon I was creating apps that I could share with friends and family. 
+                        This journey not only honed my technical skills but also helped me discover the joy of bringing innovative ideas to life through technology..</p>
+                </div>
+            </div>
+            <!------ End Entry --------->
+
+            <!------ Start Entry --------->
+            <div class="entry">
+                <div class="details">
+                    <p><strong>Michael Brown</strong> | <span class="status">Student</span> | <span class="focus">Game Development</span></p>
+                </div>
+                <div class="story">
+                    <p>As a gamer, I was always curious about how games were made, which led me to start learning game development. I began with small projects in Unity, like building basic platformers, 
+                        which allowed me to grasp the fundamentals of game mechanics and design. Each new project became an opportunity to experiment with different gameplay elements, such as character 
+                        movement and level design. I found immense joy in creating immersive worlds and challenging levels that could engage players. As I grew more confident in my skills, I delved deeper 
+                        into the technical aspects, learning about physics, animations, and even artificial intelligence. This journey not only deepened my appreciation for the games I loved but also ignited 
+                        a passion for creating my own unique gaming experiences.</p>
+                </div>
+            </div>
+            <!------ End Entry --------->
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Sarah Davis</strong> | <span class="status">Professional</span> | <span class="focus">Cybersecurity</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>Cybersecurity wasn’t my initial career choice, but once I discovered it, I was hooked. My job involves finding vulnerabilities in systems before hackers can exploit them. 
+                        I enjoy the thrill of the chase, constantly learning about new threats and countermeasures. Each day presents new challenges, keeping my problem-solving skills sharp. 
+                        I also love sharing my knowledge through workshops, helping others understand the importance of security in today’s digital landscape. Ultimately, I find fulfillment in protecting 
+                        users and organizations from cyber threats.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Tom Wilson</strong> | <span class="status">Hobbyist</span> | <span class="focus">Data Science</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>What started as a simple curiosity about data has turned into a full-fledged hobby in data science. I love how data can be used to tell a story or predict outcomes. 
+                        I often find myself diving into datasets, trying to uncover patterns that others might miss. Creating visualizations has become a passion of mine, as it helps bring 
+                        my insights to life. I've participated in online competitions to test my skills, and each project teaches me something new about analysis and interpretation. 
+                        My ultimate goal is to leverage data science to make impactful decisions and contribute to meaningful projects.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Anna Lee</strong> | <span class="status">Professional</span> | <span class="focus">Software Engineering</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>I started my career in software engineering working on backend systems. Over the years, I've transitioned to full-stack development and love the challenge of building complete 
+                        applications. My favorite part of the job is collaborating with designers and product managers to create user-friendly interfaces. I've learned the importance of agile methodologies 
+                        in delivering projects on time while maintaining quality. Continuous learning is vital in this field, and I often take courses to keep up with the latest technologies. 
+                        My passion lies in creating software that not only meets client needs but also enhances user experience.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Kevin White</strong> | <span class="status">Student</span> | <span class="focus">Cybersecurity</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>I've always been interested in cybersecurity, especially in how to protect networks from attacks. I participate in various competitions to sharpen my skills, 
+                        learning from my peers and experts in the field. Each challenge pushes me to think critically and creatively about security solutions. I've also started volunteering for 
+                        local nonprofits to help them secure their systems, gaining practical experience while giving back to the community. My goal is to pursue a career in cybersecurity, 
+                        focusing on threat intelligence and incident response. I believe that staying proactive is crucial in the ever-evolving landscape of cyber threats.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Linda Green</strong> | <span class="status">Hobbyist</span> | <span class="focus">Web Design</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>My passion for web design began with creating simple landing pages. I enjoy exploring new design trends and applying them to my projects. The creative aspect of web design 
+                        allows me to express myself while solving user experience challenges. I've spent countless hours learning CSS and JavaScript to enhance my designs with interactive elements. 
+                        Attending local meetups has connected me with other designers, inspiring me to push my boundaries. Ultimately, I aspire to build websites that not only look beautiful but 
+                        also provide seamless user experiences.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+            <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Chris Brown</strong> | <span class="status">Professional</span> | <span class="focus">Cloud Computing</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>I work as a cloud solutions architect, helping businesses migrate to cloud platforms. I love the scalability and flexibility that cloud solutions offer, allowing companies to 
+                        grow without the burden of physical infrastructure. My role involves analyzing client needs and designing tailored solutions that fit their goals. Continuous learning is 
+                        essential in this field, as cloud technology evolves rapidly. I often engage in discussions with peers to exchange ideas and best practices. Ultimately, my goal is to help 
+                        organizations harness the power of the cloud to enhance their efficiency and drive innovation.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
+
+
+
+
         </div>
     </main>
     <!--*************************** DO NOT TOUCH BELOW ***************************
@@ -175,7 +224,7 @@
               share their insights and challenges, inspiring one another to overcome obstacles and achieve their goals.
         </p>
       </div>
-  
+
       <div class="contact-info">
         <h4>Contact Info</h4>
         <p>
@@ -184,7 +233,6 @@
           <a href="https://www.facebook.com/gil.gabunada/" target="_blank"><i class="fab fa-facebook"></i></a>
           <a href="https://www.instagram.com/migen_18?igsh=bXlqaHZjM2NicXEw" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://discord.com/users/1054240944981028864" target="_blank"><i class="fab fa-discord"></i></a>
-
         </p>
       </div>
       
@@ -195,6 +243,6 @@
     </div>
   </footer>
   
-  
+  <script src="script.js"></script>
 </body>
 </html>
