@@ -86,7 +86,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    1. Open the index.html file:
       - Follow your path mine is
         ```bash   
-      C:\Users\Gabunada\Desktop\Programming\-Odyssey
+        C:\Users\Gabunada\Desktop\Programming\-Odyssey
           ```
       - Right click your index.html file then click open with then open your Code Editor (Sublime, VScode, Atom ..etc)
         
