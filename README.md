@@ -60,7 +60,9 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Switch to the **URL** tab and paste the URL of your forked repository:
       
         ```bash
+        
         https://github.com/[YourUsername]/Programming-Odyssey.git
+        
         ```
       - Choose a local path where you want to save the repository, then click **Clone**.
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/path.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
