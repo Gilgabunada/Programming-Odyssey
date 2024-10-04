@@ -108,23 +108,24 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Look for this part of the code located below:
        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/New.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - Copy the Format below:
+        
         ```bash
-        <!------ Start Entry --------->
-            <div class="entry">
-                <div class="details">
-                    <p><strong>John Doe</strong> | Student | Web Development</p>
-                </div>
-                <div class="story">
-                    <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
-                        It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
-                        My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
-                        The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
-                        but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
-                        and the journey has been incredibly rewarding.
-                    </p>
-                </div>
-            </div>
-            <!------ End Entry ----------->
+          <!------ Start Entry --------->
+              <div class="entry">
+                  <div class="details">
+                      <p><strong>John Doe</strong> | Student | Web Development</p>
+                  </div>
+                  <div class="story">
+                      <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
+                          It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
+                          My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
+                          The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
+                          but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
+                          and the journey has been incredibly rewarding.
+                      </p>
+                  </div>
+              </div>
+              <!------ End Entry ----------->
         ```
       - After Pasting the format on the designated location
       - Edit the Format with your **Details** , **Story**.
