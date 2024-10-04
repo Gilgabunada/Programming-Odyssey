@@ -111,22 +111,20 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Copy the Format below:
         
         ```bash
-          <!------ Start Entry --------->
-              <div class="entry">
-                  <div class="details">
-                      <p><strong>John Doe</strong> | Student | Web Development</p>
-                  </div>
-                  <div class="story">
-                      <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
-                          It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
-                          My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
-                          The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
-                          but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
-                          and the journey has been incredibly rewarding.
-                      </p>
-                  </div>
-              </div>
-              <!------ End Entry ----------->
+           <!------ Start Entry --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong>Chris Brown</strong> | <span class="status">Professional</span> | <span class="focus">Cloud Computing</span></p>  
+                </div>  
+                <div class="story">  
+                    <p>I work as a cloud solutions architect, helping businesses migrate to cloud platforms. I love the scalability and flexibility that cloud solutions offer, allowing companies to 
+                        grow without the burden of physical infrastructure. My role involves analyzing client needs and designing tailored solutions that fit their goals. Continuous learning is 
+                        essential in this field, as cloud technology evolves rapidly. I often engage in discussions with peers to exchange ideas and best practices. Ultimately, my goal is to help 
+                        organizations harness the power of the cloud to enhance their efficiency and drive innovation.</p>  
+                </div>  
+            </div>  
+            <!------ End Entry --------->  
+
         ```
       - After Pasting the format on the designated location
       - Edit the Format with your **Details** and **Story**.
