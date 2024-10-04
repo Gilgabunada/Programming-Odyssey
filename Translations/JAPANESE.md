@@ -93,7 +93,7 @@
       - index.htmlファイルを右クリックし、**Open with** をクリックして、コードエディタ（Sublime, VScode, Atomなど）を開きます。
         
      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/OpenIndex.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
-2. **このコードの部分には触れないでください:**
+    2. このコードの部分には触れないでください:
    
       ⚠️ **警告: このコードの部分を変更すると、あなたのエントリーは受け付けられません**
       - ### 上部
@@ -105,7 +105,7 @@
       - ### 他のエントリー
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/DONT.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
-   3. **貢献者フォーマットを追加する:**
+   3. 貢献者フォーマットを追加する:
       - 以下の位置にあるこの部分のコードを探してください:
        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/New.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - 以下のフォーマットをコピーしてください:
