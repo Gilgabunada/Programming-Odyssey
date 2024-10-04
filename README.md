@@ -94,6 +94,7 @@ We invite you to contribute by sharing your programming journey and insights! He
      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/OpenIndex.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
      
    2. DO NOT TOUCH THIS PART OF THE CODE:
+   
       ⚠️ **WARNING: IF YOU CHANGE THIS PART OF THE CODE YOUR ENTRY WON'T BE ACCEPTED**
       - ### TOP
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Above.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
@@ -104,7 +105,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - ### OTHERS ENTRY
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/DONT.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
-   3. Add the Contributor Format:
+   4. Add the Contributor Format:
       - Look for this part of the code located below:
        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/New.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - Copy the Format below:
