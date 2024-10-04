@@ -133,7 +133,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Please provide your **Name**, current **Status** (student, professional, hobbyist), and a brief description of your **Current focus** (web development, AI-focused software development, or Java, C , Python ..etc) and dont forget your **Programming Story**
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
-5. **Commit Your Changes**
+6. **Commit Your Changes**
     
    1. Return to GitHub Desktop:
       - Go back to GitHub Desktop. You should see your new file listed under the **Changes** tab.
@@ -145,13 +145,13 @@ We invite you to contribute by sharing your programming journey and insights! He
         <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Comitting.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
     - Click the **Commit to [your-branch-name]** button to save your changes locally. 
             
-6. **Push Your Changes to GitHub**
+7. **Push Your Changes to GitHub**
     
    1. Push Your Changes:
       - Click on the **Push origin** button at the top of the GitHub Desktop window to upload your changes to the remote repository on GitHub.
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/pushing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
-7. **Submit a Pull Request**
+8. **Submit a Pull Request**
     
    1. Open Your Repository on GitHub Website:
       - In your web browser, navigate to your forked repository.
@@ -161,7 +161,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - Fill out the pull request form, providing any additional context if necessary, and click **Create pull request**.
         <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/pullrequest.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
-8. **Celebrate Your Achievement**
+9. **Celebrate Your Achievement**
 
    After submitting your pull request, take a moment to appreciate the milestone you’ve just reached. Your changes are now officially under review by the repository’s maintainer. Once they approve, your work will be merged into the project.
    This means your first contribution will be published for the world to see—an achievement that marks your entry into collaborative software development.
@@ -169,7 +169,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    This is not just about submitting code but becoming part of an open-source community or team project. Each contribution helps improve the project, and your efforts have now made an impact.
    So go ahead and celebrate—you’ve taken an important step in your programming journey!
 
-9. **Star the Repository and Open Your First Issue**
+10. **Star the Repository and Open Your First Issue**
 
    Once your pull request is submitted, consider taking a couple of additional steps to further engage with the project:
 
