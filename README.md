@@ -221,8 +221,8 @@ If you have any questions or feedback regarding this repository, feel free to op
 
 To enhance accessibility for a broader audience, this repository offers translations in three languages:
 
-- **[Japanese (Nihongo)](JAPANESE.md)**
+- **[Japanese (Nihongo)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/JAPANESE.md)**
 - **[Chinese (Mandarin)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/CHINESE.md)**
-- **[Indian (Hindi)](HINDI.md)**
+- **[Indian (Hindi)](https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Translations/HINDI.md)**
 
 We understand that not all users may be proficient in English, and we aim to accommodate diverse language preferences. If there is a demand for additional translations in the future, we will consider adding more languages to better serve our community.
