@@ -6,15 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Programming Odyssey</title>
     <link rel="icon" href="Logo/TAB.png" type="image/png"> <!-- Change the path accordingly -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <div class="logo-container">
-        <img src="Logo/TAB.png" alt="Logo" class="logo"></div>
 
-    <a href="https://github.com/Gilgabunada/Programming-Odyssey" class="button">Contribute</a>
-
+    <header id="main-header">
+        <div class="logo-container">
+            <img src="Logo/TAB.png" alt="Logo" class="logo">
+            <span class="logo-text">Programming Odyssey</span>
+        </div>
+        
+        <a href="https://github.com/Gilgabunada/Programming-Odyssey" class="button">
+            Contribute <span class="arrow">→</span>
+        </a>
+        
+        <a href="#footer" class="arrow-button">
+            <i class="fas fa-arrow-down"></i>
+        </a> 
+    </header>
+    
     <div class="search-container">
         <input type="text" id="search" placeholder="Search by status or focus ..." /></div>
     
@@ -62,6 +74,12 @@
             <div class="entry">
                 <div class="details">
                     <p><strong>John Doe</strong> | <span class="status">Student</span> | <span class="focus">Web Development</span></p>
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>
                 <div class="story">
                     <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
@@ -77,6 +95,12 @@
             <div class="entry">
                 <div class="details">
                     <p><strong>Jane Smith</strong> | <span class="status">Professional</span> | <span class="focus">AI and Machine Learning</span></p>
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>
                 <div class="story">
                     <p>My journey into AI and machine learning started during my final year of college. I was fascinated by how machines could learn from data and make predictions, 
@@ -92,6 +116,12 @@
             <div class="entry">
                 <div class="details">
                     <p><strong>Emily Johnson</strong> | <span class="status">Hobbyist</span> | <span class="focus">Mobile Apps</span></p>
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>
                 <div class="story">
                     <p>I learned programming through online tutorials, starting with small projects like calculators and to-do lists. Each project taught me the basics of coding and problem-solving, 
@@ -107,6 +137,12 @@
             <div class="entry">
                 <div class="details">
                     <p><strong>Michael Brown</strong> | <span class="status">Student</span> | <span class="focus">Game Development</span></p>
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>
                 <div class="story">
                     <p>As a gamer, I was always curious about how games were made, which led me to start learning game development. I began with small projects in Unity, like building basic platformers, 
@@ -122,6 +158,12 @@
             <div class="entry">  
                 <div class="details">  
                     <p><strong>Sarah Davis</strong> | <span class="status">Professional</span> | <span class="focus">Cybersecurity</span></p>  
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>  
                 <div class="story">  
                     <p>Cybersecurity wasn’t my initial career choice, but once I discovered it, I was hooked. My job involves finding vulnerabilities in systems before hackers can exploit them. 
@@ -135,7 +177,13 @@
             <!------ Start Entry --------->  
             <div class="entry">  
                 <div class="details">  
-                    <p><strong>Tom Wilson</strong> | <span class="status">Hobbyist</span> | <span class="focus">Data Science</span></p>  
+                    <p><strong>Tom Wilson</strong> | <span class="status">Hobbyist</span> | <span class="focus">Data Science</span></p>
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>  
                 <div class="story">  
                     <p>What started as a simple curiosity about data has turned into a full-fledged hobby in data science. I love how data can be used to tell a story or predict outcomes. 
@@ -144,12 +192,19 @@
                         My ultimate goal is to leverage data science to make impactful decisions and contribute to meaningful projects.</p>  
                 </div>  
             </div>  
-            <!------ End Entry --------->  
+            <!------ End Entry --------->
+
 
             <!------ Start Entry --------->  
             <div class="entry">  
                 <div class="details">  
                     <p><strong>Anna Lee</strong> | <span class="status">Professional</span> | <span class="focus">Software Engineering</span></p>  
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>  
                 <div class="story">  
                     <p>I started my career in software engineering working on backend systems. Over the years, I've transitioned to full-stack development and love the challenge of building complete 
@@ -163,7 +218,13 @@
             <!------ Start Entry --------->  
             <div class="entry">  
                 <div class="details">  
-                    <p><strong>Kevin White</strong> | <span class="status">Student</span> | <span class="focus">Cybersecurity</span></p>  
+                    <p><strong>Kevin White</strong> | <span class="status">Student</span> | <span class="focus">Cybersecurity</span></p> 
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>   
                 </div>  
                 <div class="story">  
                     <p>I've always been interested in cybersecurity, especially in how to protect networks from attacks. I participate in various competitions to sharpen my skills, 
@@ -177,7 +238,13 @@
             <!------ Start Entry --------->  
             <div class="entry">  
                 <div class="details">  
-                    <p><strong>Linda Green</strong> | <span class="status">Hobbyist</span> | <span class="focus">Web Design</span></p>  
+                    <p><strong>Linda Green</strong> | <span class="status">Hobbyist</span> | <span class="focus">Web Design</span></p> 
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>   
                 </div>  
                 <div class="story">  
                     <p>My passion for web design began with creating simple landing pages. I enjoy exploring new design trends and applying them to my projects. The creative aspect of web design 
@@ -192,6 +259,12 @@
             <div class="entry">  
                 <div class="details">  
                     <p><strong>Chris Brown</strong> | <span class="status">Professional</span> | <span class="focus">Cloud Computing</span></p>  
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>  
                 </div>  
                 <div class="story">  
                     <p>I work as a cloud solutions architect, helping businesses migrate to cloud platforms. I love the scalability and flexibility that cloud solutions offer, allowing companies to 
@@ -202,10 +275,6 @@
             </div>  
             <!------ End Entry --------->  
 
-
-
-
-
         </div>
     </main>
     <!--*************************** DO NOT TOUCH BELOW ***************************
@@ -214,7 +283,7 @@
 
     
     <!-- Footer Section -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
     <div class="footer-container">
       <div class="about-us">
         <h4>About Us</h4>
@@ -236,6 +305,10 @@
         </p>
       </div>
       
+      <a href="#main-header" class="arrow-button-top">
+        <i class="fas fa-arrow-up"></i>
+        </a>
+
     </div>
   
     <div class="copyright">

@@ -10,44 +10,104 @@ body {
     align-items: center; 
     min-height: 100vh; 
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-
-.logo {
-    width: 50px;            /* Adjust size of the logo as needed */
-    height: auto;           /* Maintain aspect ratio */
-    margin-right: 10px;     /* Space between logo and text */
+/* Style for the header */
+#main-header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    background-color:black; /* Background color for header */
+    padding: 10px 20px; /* Padding for header */
+    position: fixed; /* Keep the header fixed at the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Full width of the viewport */
+    max-width: 100vw; /* Prevent it from exceeding the viewport width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: transform 0.3s ease; /* Smooth transition for sliding */
 }
+
 
 .logo-container {
-    position: fixed; /* Keep the logo in a fixed position */
-    top: 40px; /* Adjust this value to position vertically */
-    left: 40px; /* Position on the left */
-    z-index: 1000; /* Ensure it's on top of other content */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center align items vertically */
+    
 }
 
+.logo {
+    width: 50px; /* Adjust size of the logo */
+    height: auto; /* Keep the aspect ratio */
+    margin-right: 10px; /* Space between the logo and the text */
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for the logo text */
+    font-size: 24px; /* Adjust size as needed */
+}
+
+.logo-text {
+
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for the logo text */
+    font-size: 15px; /* Adjust size */
+    margin-left: 10px; /* Space between logo and text */
+    color: #ffffff; /* Change to desired color */
+}
+
+
+/* Style for the contribute button */
 .button {
-    position: fixed; /* Keep the button in a fixed position */
-    top: 40px; /* Adjust for vertical positioning */
-    right: 40px; /* Position on the right */
-    background-color: #1e1e1e; /* Dark background to fit the theme */
-    color: #ffffff; /* White text */
-    padding: 10px 20px; /* Padding for the button */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    z-index: 1000; /* Ensure it’s on top of other content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-left: 1100px;
+    background: linear-gradient(135deg, #00FFFF, #1e1e1e); /* Sleek gradient background */
+    color: #ffffff; 
+    padding: 8px 16px; /* Smaller padding */
+    border: 2px solid #00FFFF; /* Neon border */
+    border-radius: 20px; /* Rounded for a modern feel */
+    text-decoration: none; 
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer; 
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 255, 255, 0.3); /* Reduced glow effect */
+    transition: all 0.4s ease; /* Smooth transitions */
+    text-transform: uppercase; /* Futuristic text styling */
+    letter-spacing: 1px; /* Adjusted spacing for modern font */
+    display: inline-flex; /* Change to inline-flex to size correctly */
+    align-items: center; /* Center-align text and arrow */
+    justify-content: center; /* Center content horizontally */
 }
 
+/* Style for the arrow */
+.arrow {
+    font-size: 18px; /* Arrow size */
+    margin-left: 8px; /* Space between text and arrow */
+}
+
+/* Hover effect for the contribute button */
 .button:hover {
-    background-color: #333333; /* Darker shade on hover */
+    background: #333333; /* Darker background on hover */
+    color: #00FFFF; /* Neon text on hover */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.5); /* More subtle glow on hover */
 }
 
+.arrow-button {
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text */
+    font-size: 24px; /* Adjust size for the icon */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure it's on top of other content */
+    transition: color 0.3s, transform 0.3s; /* Smooth color transition and scale effect */
+    margin-right: 130px;
+}
 
+/* Hover effect for the arrow button */
+.arrow-button:hover {
+    color: #00FFFF; /* Neon color on hover */
+    transform: scale(1.3); /* Scale up slightly on hover */
+}
+
+/* Font Awesome Arrow Styles */
+.arrow-button i {
+    font-size: 24px; /* Adjust size for the icon */
+}
 
 
 main {
@@ -67,18 +127,29 @@ main {
 
 .search-container input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background-color: #222;
-    color: #f5f5f5;
+    padding: 12px 20px; /* Adjusted padding for more space */
+    border: 2px solid #00FFFF; /* Neon border */
+    border-radius: 30px; /* Rounded for a modern look */
+    background-color: #222; /* Dark background */
+    color: #f5f5f5; /* Light text for contrast */
     font-size: 1rem;
-    transition: border-color 0.3s;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.search-container input::placeholder {
+    color: #888; /* Placeholder color */
+    font-style: italic; /* Placeholder text style */
 }
 
 .search-container input:focus {
-    border-color: #846f6f; /* Change to a different color on focus */
-    outline: none;
+    border-color: #00FFFF; /* Neon color on focus */
+    background-color: #111; /* Darker background when focused */
+}
+
+.search-container input:hover {
+    border-color: #00FFFF; /* Maintain border color on hover */
 }
 
 
@@ -99,45 +170,67 @@ main {
 }
 
 .entry {
-    background: hsla(0, 0%, 2%, 0.5);
-    border-radius: 10px;
+    background: hsla(0, 0%, 2%, 0.7); /* Slightly more opaque for better visibility */
+    border-radius: 15px; /* Increased border radius for a softer look */
     padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Reduced glow */
     width: 100%;
     max-width: 800px;
     margin: auto;
-    border: 1px solid #333;
-    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+    border: 1px solid #444; /* Darker border for less glow */
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out; /* Smooth transitions */
 }
 
 .entry:hover {
-    transform: scale(1.02);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
-    background-color: #222;
+    transform: scale(1.01); /* Slightly larger on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Mild shadow on hover */
+    background-color: rgba(34, 34, 34, 0.9); /* Darker background on hover */
 }
 
 .details {
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #846f6f;
+    border-bottom: 2px solid #00FFFF; /* Neon border for details */
+    color: #fff; /* Light text color for contrast */
 }
 
 .story {
     padding-top: 10px;
+    color: #f5f5f5; /* Light text for story */
 }
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start; /* Align icons to the start */
+    gap: 20px; /* Space between the icons */
+    margin-top: 10px; /* Add some margin above the icons */
+}
+
+.social-icon {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Change icon color */
+    font-size: 20px; /* Icon size */
+    transition: color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.social-icon:hover {
+    color: #1721ec; /* Change color on hover (Twitter color) */
+    transform: scale(1.3); /* Slightly enlarge on hover */
+}
+
 
 .tools-container {
     position: fixed; 
-    top: 200px;
+    top: 100px;
     left: 20px; 
-    width: 300px;
+    width: 150px;
     max-height: calc(100vh - 150px); 
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     z-index: 1000;
     overflow-y: auto;
+    backdrop-filter: blur(10px); /* Blurring effect for background */
 }
 
 .tools-container ul {
@@ -153,25 +246,37 @@ main {
 .tools-container a {
     color: #ffffff;
     text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for link color */
+    position: relative;
+}
+.tools-container a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Distance from the text */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #00FFFF;
+    transition: width 0.3s ease-out; /* Sliding effect */
+}
+.tools-container a:hover::after {
+    width: 100%; /* Expands the underline */
 }
 
-.tools-container a:hover {
-text-decoration: underline;
-}
 
 .resources-container {
     position: fixed; 
-    top: 200px;
+    top: 120px;
     right: 30px;
-    width: 300px;
+    width: 150px;
     max-height: calc(100vh - 150px); 
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     z-index: 1000;
     overflow-y: auto;
     text-align: right;
+    backdrop-filter: blur(10px); /* Blurring effect for background */
 }
 
 .resources-container h2 {
@@ -192,19 +297,42 @@ text-decoration: underline;
 .resources-container a {
     color: #ffffff;
     text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for link color */
+    position: relative;
+}
+.resources-container a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Distance from the text */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #00FFFF;
+    transition: width 0.3s ease-out; /* Sliding effect */
 }
 
-.resources-container a:hover {
-    text-decoration: underline;
-
+.resources-container a:hover::after {
+    width: 100%; /* Expands the underline */
 }
+
+.tools-container a:hover::after {
+    width: 100%; /* Expands the underline */
+    box-shadow: 0 0 8px #00FFFF, 0 0 15px #00FFFF; /* Glow effect */
+}
+
+.resources-container a:hover::after {
+    width: 100%; /* Expands the underline */
+    box-shadow: 0 0 8px #00FFFF, 0 0 15px #00FFFF; /* Glow effect */
+}
+
 
 .footer {
-    background-color: #1c1c1c;
-    color: #f1f1f1;
+    background-color: #1c1c1c; /* Dark background for contrast */
+    color: #f1f1f1; /* Light text for readability */
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0; /* Increased padding for a more spacious feel */
     font-size: 0.9rem;
+    border-top: 2px solid #00FFFF; /* Neon top border */
 }
 
 .footer-container {
@@ -215,8 +343,10 @@ text-decoration: underline;
 }
 
 .footer h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Slightly larger for emphasis */
     margin-bottom: 10px;
+    color: #00FFFF; /* Neon color for headings */
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.7); /* Soft glow effect */
 }
 
 .footer p {
@@ -230,12 +360,14 @@ text-decoration: underline;
 }
 
 .footer a {
-    color: #f1f1f1;
+    color: #f1f1f1; /* Link color */
     text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for link color */
 }
 
 .footer a:hover {
-    text-decoration: underline;
+    color: #00FFFF; /* Neon color on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
 .contact-info a {
@@ -247,22 +379,24 @@ text-decoration: underline;
 
 .contact-info i {
     margin-right: 8px;
-    transition: transform 0.1s;
+    transition: transform 0.2s; /* Slightly slower transform */
 }
 
 .contact-info a:hover i {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Slightly scale up on hover */
 }
 
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
+        align-items: center; /* Center items on smaller screens */
     }
 
     .about-us,
     .contact-info {
         width: 100%;
         margin-bottom: 20px;
+        text-align: center; /* Center text in columns */
     }
 
     .main-container {
@@ -281,3 +415,52 @@ text-decoration: underline;
         right: auto;
     }
 }
+
+.arrow-button-top {
+    background-color: transparent; /* Transparent background */
+    color: #ffffff; /* White text */
+    font-size: 24px; /* Adjust size for the icon */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure it's on top of other content */
+    transition: color 0.3s, transform 0.3s; /* Smooth color transition and scale effect */
+    margin-right: 50px; /* Adjust as needed for your layout */
+}
+
+/* Hover effect for the arrow button */
+.arrow-button-top:hover {
+    color: #00FFFF; /* Neon color on hover */
+    transform: scale(1.3); /* Scale up slightly on hover */
+}
+
+/* Font Awesome Arrow Styles */
+.arrow-button-top i {
+    font-size: 24px; /* Adjust size for the icon */
+}
+
+
+
+/* Hide the track (train) of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Hide the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00FFFF; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Optional: Rounded corners for the handle */
+}
+
+/* Optional: Handle hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: #00CED1; /* Darker shade on hover */
+}
+
+/* Firefox scrollbar styles */
+.scroll-container {
+    scrollbar-width: thin; /* Makes scrollbar thinner */
+    scrollbar-color: #00FFFF transparent; /* Handle color and track color */
+}
+
