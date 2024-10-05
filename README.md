@@ -99,7 +99,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - ### TOP
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Above.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
-      - ### BUTTOM
+      - ### BOTTOM
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Below.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
       - ### OTHERS ENTRY
