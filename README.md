@@ -139,7 +139,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       - **Remove the Unused Links:**
        If you don’t have an account for a particular social media platform, simply delete its corresponding line of code. For example, if you don’t use Twitter, remove the following line:
-      ```html
+      ```bash
        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> <!-- Don't forget to change the social media links -->
       ```
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/remove.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
