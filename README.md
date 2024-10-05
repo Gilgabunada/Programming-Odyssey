@@ -99,7 +99,7 @@ We invite you to contribute by sharing your programming journey and insights! He
       - ### TOP
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Above.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
-      - ### BUTTOM
+      - ### BOTTOM
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Below.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
       
       - ### OTHERS ENTRY
@@ -108,7 +108,7 @@ We invite you to contribute by sharing your programming journey and insights! He
    3. Add the Contributor Format:
       - Look for this part of the code located below:
        <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/New.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
-      - Copy the Format below:
+        - Copy the Format below:
         
         ```bash
            <!------ Start Entry --------->  
@@ -135,7 +135,18 @@ We invite you to contribute by sharing your programming journey and insights! He
       - After Pasting the format on the designated location
       - Edit the Format with your **Details** and **Story**.
       - Please provide your **Name**, current **Status** (student, professional, hobbyist), and a brief description of your **Current focus** (web development, AI-focused software development, or Java, C , Python ..etc) and dont forget your **Programming Story**
+      - **Replace the URL:** Change the URL inside the `href` attribute to your own social media link. For example, if your Facebook URL is `https://www.facebook.com/yourprofile`, update the code like this:
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      - **Remove the Unused Links:**
+       If you don’t have an account for a particular social media platform, simply delete its corresponding line of code. For example, if you don’t use Twitter, remove the following line:
+
+      ```bash
+      
+       <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> <!-- Don't forget to change the social media links -->
+      
+      ```
+      
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/remove.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 6. **Commit Your Changes**
     
