@@ -57,7 +57,7 @@ body {
 
 /* Style for the contribute button */
 .button {
-    margin-left: 1100px;
+    margin-left: 50vw;
     background: linear-gradient(135deg, #00FFFF, #1e1e1e); /* Sleek gradient background */
     color: #ffffff; 
     padding: 8px 16px; /* Smaller padding */
@@ -95,7 +95,7 @@ body {
     cursor: pointer; /* Pointer cursor on hover */
     z-index: 1000; /* Ensure it's on top of other content */
     transition: color 0.3s, transform 0.3s; /* Smooth color transition and scale effect */
-    margin-right: 130px;
+    margin-right:5vw;
 }
 
 /* Hover effect for the arrow button */
@@ -222,8 +222,8 @@ main {
 .tools-container {
     position: fixed; 
     top: 100px;
-    left: 20px; 
-    width: 150px;
+    left: 10px; 
+    width: 100px;
     max-height: calc(100vh - 150px); 
     color: #ffffff;
     padding: 20px;
@@ -268,7 +268,7 @@ main {
     position: fixed; 
     top: 120px;
     right: 30px;
-    width: 150px;
+    width: 120px;
     max-height: calc(100vh - 150px); 
     color: #ffffff;
     padding: 20px;
@@ -407,7 +407,7 @@ main {
     .tools-container,
     .resources-container {
         width: 90%;
-        max-width: 400px;
+        max-width: 110px;
         margin-bottom: 40px;
         position: relative;
         top: auto;
