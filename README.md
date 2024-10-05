@@ -135,8 +135,9 @@ We invite you to contribute by sharing your programming journey and insights! He
       - After Pasting the format on the designated location
       - Edit the Format with your **Details** and **Story**.
       - Please provide your **Name**, current **Status** (student, professional, hobbyist), and a brief description of your **Current focus** (web development, AI-focused software development, or Java, C , Python ..etc) and dont forget your **Programming Story**
+      - For the social media **Copy the URL of your social media account** then paste it (ex. remove the **www.facebook.com** and past your *URL* there.
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
-      - If you dont have all of that social media you can also remove as shown below:
+      - If you dont have all of that social media you can also remove that social media, as shown below:
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/remove.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
 
 6. **Commit Your Changes**
