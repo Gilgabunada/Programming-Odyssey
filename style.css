@@ -57,7 +57,7 @@ body {
 
 /* Style for the contribute button */
 .button {
-    margin-left: 50vw;
+    margin-right: -50vw;
     background: linear-gradient(135deg, #00FFFF, #1e1e1e); /* Sleek gradient background */
     color: #ffffff; 
     padding: 8px 16px; /* Smaller padding */
@@ -78,7 +78,7 @@ body {
 /* Style for the arrow */
 .arrow {
     font-size: 18px; /* Arrow size */
-    margin-left: 8px; /* Space between text and arrow */
+    margin-left: 15px; /* Space between text and arrow */
 }
 
 /* Hover effect for the contribute button */
@@ -95,7 +95,7 @@ body {
     cursor: pointer; /* Pointer cursor on hover */
     z-index: 1000; /* Ensure it's on top of other content */
     transition: color 0.3s, transform 0.3s; /* Smooth color transition and scale effect */
-    margin-right:5vw;
+    margin-right:6vw;
 }
 
 /* Hover effect for the arrow button */
@@ -232,7 +232,6 @@ main {
     overflow-y: auto;
     backdrop-filter: blur(10px); /* Blurring effect for background */
 }
-
 .tools-container ul {
     list-style-type: none;
     padding: 0;
@@ -386,7 +385,7 @@ main {
     transform: scale(1.1); /* Slightly scale up on hover */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .footer-container {
         flex-direction: column;
         align-items: center; /* Center items on smaller screens */
@@ -404,15 +403,31 @@ main {
         align-items: center;
     }
 
-    .tools-container,
-    .resources-container {
-        width: 90%;
-        max-width: 110px;
-        margin-bottom: 40px;
-        position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
+}
+
+/* Responsive layout for smaller screens */
+@media only screen and (max-width: 768px) {
+    .tools-container, .resources-container {
+        position: static; /* Change from fixed */
+        width: 45%; /* Adjust width for both sections */
+        max-width: none; /* Remove max-width */
+        margin: 10px 0; /* Add spacing between them */
+        padding: 10px;
+        overflow-y: visible; /* Remove scrollbars */
+        backdrop-filter: none; /* Optional: remove blur on smaller screens */
+    }
+    
+    /* Align sidebars side by side above the search bar */
+    .sidebar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    /* Ensure the search bar is below the Tools and Resources */
+    .search-bar {
+        margin-top: 20px;
     }
 }
 
