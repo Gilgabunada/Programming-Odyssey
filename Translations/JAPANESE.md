@@ -135,7 +135,17 @@
       - 指定された場所にフォーマットを貼り付けたら
       - フォーマットをあなたの**詳細**と**ストーリー**で編集してください。
       - あなたの**名前**、現在の**状況**（学生、専門家、趣味）、およびあなたの**現在の焦点**（ウェブ開発、AI関連のソフトウェア開発、Java、C、Pythonなど）についての簡単な説明を提供し、あなたの**プログラミングストーリー**もお忘れなく。
+      - **URLを置き換えます：** href属性内のURLを自分のソーシャルメディアリンクに変更します。たとえば、FacebookのURLがhttps://www.facebook.com/yourprofileである場合、コードを次のように更新します：
       <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+      - **未使用のリンクを削除します：**
+       特定のソーシャルメディアプラットフォームのアカウントがない場合は、その対応するコード行を単純に削除します。たとえば、Twitterを使用しない場合は、次の行を削除します：
+
+      ```html
+      <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> <!-- ソーシャルメディアリンクを変更するのを忘れないでください -->
+      ```
+
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/remove.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+
 6. **変更をコミットする**
     
    1. GitHub Desktopに戻る:
