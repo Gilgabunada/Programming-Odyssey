@@ -110,22 +110,26 @@
    - नीचे दिए गए प्रारूप को कॉपी करें:
         
         ```bash
-          <!------ Start Entry --------->
-              <div class="entry">
-                  <div class="details">
-                      <p><strong>John Doe</strong> | Student | Web Development</p>
-                  </div>
-                  <div class="story">
-                      <p>I started programming at a young age, facing many challenges when trying to understand algorithms and data structures. 
-                          It wasn’t easy at first, but with time, I learned to enjoy the process of solving problems and creating functional websites. 
-                          My first project was a simple portfolio, but as I gained more experience, I started working on more complex projects. 
-                          The satisfaction of seeing something I built come to life is indescribable. I still face challenges, 
-                          but each one is a learning opportunity. Today, I’m working on building a fully responsive e-commerce website from scratch, 
-                          and the journey has been incredibly rewarding.
-                      </p>
-                  </div>
-              </div>
-              <!------ End Entry ----------->
+          <!------ प्रविष्टि प्रारंभ --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong> नाम </strong> | <span class="status"> स्थिति </span> | <span class="focus"> वर्तमान ध्यान </span></p>  
+                    <div class="social-icons"> <!-- सोशल आइकनों के लिए नई_wrapper -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a> <!-- सोशल मीडिया लिंक बदलना न भूलें -->
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>      <!-- सोशल मीडिया लिंक बदलना न भूलें -->
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>    <!-- सोशल मीडिया लिंक बदलना न भूलें -->
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>   <!-- सोशल मीडिया लिंक बदलना न भूलें -->
+                    </div>  
+                </div>  
+                <div class="story">  
+                    <p>  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  
+                        यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!! 
+                        यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!!  यहाँ अपनी प्रोग्रामिंग यात्रा लिखें..!!! 
+                    </p>  
+                </div>  
+            </div>  
+            <!------ प्रविष्टि समाप्त ---------> 
+
         ```
    - प्रारूप को निर्दिष्ट स्थान पर चिपकाने के बाद
    - अपने **विवरण** और **कहानी** के साथ प्रारूप को संपादित करें।

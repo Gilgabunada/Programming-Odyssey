@@ -114,16 +114,22 @@ We invite you to contribute by sharing your programming journey and insights! He
            <!------ Start Entry --------->  
             <div class="entry">  
                 <div class="details">  
-                    <p><strong>Chris Brown</strong> | <span class="status">Professional</span> | <span class="focus">Cloud Computing</span></p>  
+                    <p><strong> Name </strong> | <span class="status"> Status </span> | <span class="focus"> Currently Focused </span></p>  
+                    <div class="social-icons"> <!-- New wrapper for social icons -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a> <!-- Dont forget to change the social media Links -->
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>      <!-- Dont forget to change the social media Links -->
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>    <!-- Dont forget to change the social media Links -->
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>   <!-- Dont forget to change the social media Links -->
+                    </div>  
                 </div>  
                 <div class="story">  
-                    <p>I work as a cloud solutions architect, helping businesses migrate to cloud platforms. I love the scalability and flexibility that cloud solutions offer, allowing companies to 
-                        grow without the burden of physical infrastructure. My role involves analyzing client needs and designing tailored solutions that fit their goals. Continuous learning is 
-                        essential in this field, as cloud technology evolves rapidly. I often engage in discussions with peers to exchange ideas and best practices. Ultimately, my goal is to help 
-                        organizations harness the power of the cloud to enhance their efficiency and drive innovation.</p>  
+                    <p>  Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!!  
+                        Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!! 
+                        Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!!  Write your Programming journey here..!!! 
+                    </p>  
                 </div>  
             </div>  
-            <!------ End Entry --------->  
+            <!------ End Entry --------->   
 
         ```
       - After Pasting the format on the designated location
