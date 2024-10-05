@@ -131,7 +131,18 @@
    - 在指定位置粘贴格式后，
    - 用您的 **详细信息** 和 **故事** 编辑格式。
    - 请提供您的 **姓名**、当前 **状态**（学生、专业人士、爱好者），以及您 **当前关注** 的简要描述（网页开发、AI 专注的软件开发，或 Java、C、Python 等等），并且不要忘记您的 **编程故事**。
+   - **替换网址：** 将 `href` 属性中的网址更改为您自己的社交媒体链接。例如，如果您的 Facebook 网址是 `https://www.facebook.com/yourprofile`，请像这样更新代码：
    <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/Editing.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+
+   - **删除未使用的链接：**
+       如果您没有某个社交媒体平台的帐户，只需删除其相应的代码行。例如，如果您不使用 Twitter，请删除以下代码行：
+
+      ```html
+      <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> <!-- 别忘了更改社交媒体链接 -->
+      ```
+
+      <img src="https://github.com/Gilgabunada/Programming-Odyssey/blob/main/Step%20images/remove.png?raw=true" alt="My Image" style="max-width: 30; height: 30;"/>
+
 6. **提交您的更改**
     
    1. 返回 GitHub Desktop：
