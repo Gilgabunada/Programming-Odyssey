@@ -107,17 +107,26 @@
    - 复制以下格式：
      
      ```bash
-       <!------ Start Entry --------->
-           <div class="entry">
-               <div class="details">
-                   <p><strong>John Doe</strong> | 学生 | 网页开发</p>
-               </div>
-               <div class="story">
-                   <p>我从小就开始编程，在理解算法和数据结构时面临许多挑战。最开始并不容易，但随着时间的推移，我学会了享受解决问题和创建功能网站的过程。我的第一个项目是一个简单的作品集，但随着经验的增长，我开始着手更复杂的项目。看到自己构建的东西变为现实的满足感无法用言语表达。我依然面临挑战，但每一个挑战都是一个学习的机会。今天，我正在从头开始构建一个完全响应式的电子商务网站，这段旅程令人无比充实。
-                   </p>
-               </div>
-           </div>
-           <!------ End Entry ----------->
+       <!------ 开始条目 --------->  
+            <div class="entry">  
+                <div class="details">  
+                    <p><strong> 姓名 </strong> | <span class="status"> 状态 </span> | <span class="focus"> 当前关注 </span></p>  
+                    <div class="social-icons"> <!-- 新的社交图标包装 -->
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a> <!-- 别忘了更改社交媒体链接 -->
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>      <!-- 别忘了更改社交媒体链接 -->
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>    <!-- 别忘了更改社交媒体链接 -->
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>   <!-- 别忘了更改社交媒体链接 -->
+                    </div>  
+                </div>  
+                <div class="story">  
+                    <p>  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  
+                        在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!! 
+                        在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!!  在这里写下你的编程旅程..!!! 
+                    </p>  
+                </div>  
+            </div>  
+            <!------ 结束条目 ---------> 
+
      ```
    - 在指定位置粘贴格式后，
    - 用您的 **详细信息** 和 **故事** 编辑格式。
