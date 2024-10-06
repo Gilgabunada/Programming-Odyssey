@@ -18,7 +18,7 @@
   
 ## Introduction
 
-Welcome to **The Programming Odyssey**! This project is a friendly platform for individuals of all skill levels—from newbies to professionals—to share their personal journeys in the world of programming. By documenting our experiences, we create a valuable resource for those just starting or looking for inspiration to continue their coding journeys. Whether you’ve faced challenges, achieved milestones, or discovered useful techniques, your story can motivate others in the programming community.
+Welcome to **The Programming Odyssey**! This project is a friendly platform for individuals of all skill levels—from newbies to professionals to share their personal journeys in the world of programming. By documenting our experiences, we create a valuable resource for those just starting or looking for inspiration to continue their coding journeys. Whether you’ve faced challenges, achieved milestones, or discovered useful techniques, your story can motivate others in the programming community.
 
 ## Purpose
 
